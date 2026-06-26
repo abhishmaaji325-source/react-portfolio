@@ -1,0 +1,25 @@
+.contact {
+  padding: 60px 40px;
+  background: #111827;
+  color: white;
+  text-align: center;
+}
+
+.contact p {
+  color: #cbd5e1;
+}
+
+.contact-box {
+  margin-top: 20px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.contact-box a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #38bdf8;
+  text-decoration: none;
+}
