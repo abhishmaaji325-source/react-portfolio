@@ -17,11 +17,19 @@
   padding: 15px;
   border-radius: 10px;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
   width: 100%;
+  height: auto;
   border-radius: 8px;
+  display: block;
 }
 
 .card a {
@@ -29,4 +37,37 @@
   margin-top: 10px;
   color: #38bdf8;
   text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .projects {
+    padding: 50px 25px;
+  }
+
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+  .projects {
+    padding: 40px 15px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
 }

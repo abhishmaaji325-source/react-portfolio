@@ -15,6 +15,8 @@
   color: #cbd5e1;
   max-width: 600px;
   margin: 0 auto 30px;
+  line-height: 1.7;
+  font-size: 16px;
 }
 
 .skills {
@@ -29,4 +31,65 @@
   padding: 8px 15px;
   border-radius: 20px;
   font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.skills span:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .about {
+    padding: 50px 25px;
+  }
+
+  .about h2 {
+    font-size: 24px;
+  }
+
+  .about p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .skills {
+    gap: 8px;
+  }
+
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+  .about {
+    padding: 40px 18px;
+  }
+
+  .about h2 {
+    font-size: 22px;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .skills {
+    gap: 8px;
+  }
+
+  .skills span {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
 }
